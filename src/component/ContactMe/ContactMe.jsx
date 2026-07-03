@@ -63,7 +63,7 @@ const ContactMe = () => {
                 </a>
 
                 <a
-                  href="www.linkedin.com/in/whirus"
+                  href="https://www.linkedin.com/in/whirus"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 hover:text-purple-400 transition"
