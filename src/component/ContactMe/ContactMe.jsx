@@ -63,7 +63,7 @@ const ContactMe = () => {
                 </a>
 
                 <a
-                  href="https://linkedin.com"
+                  href="www.linkedin.com/in/whirus"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 hover:text-purple-400 transition"
@@ -73,7 +73,7 @@ const ContactMe = () => {
                 </a>
 
                 <a
-                  href="/resume.pdf"
+                  href="https://drive.google.com/file/d/1SMrrjy-XYeEPNKkQ8pPojHqLNz4IO22N/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 hover:text-purple-400 transition"
