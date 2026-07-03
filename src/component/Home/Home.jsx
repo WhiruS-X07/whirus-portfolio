@@ -1,5 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import { Link } from "react-router-dom";
 import profile from "../../assets/profile.jpeg";
 import DotPattern from "../../component/DotPattern/DotPattern";
 
@@ -43,16 +44,22 @@ const Home = () => {
             I build modern, responsive, and scalable web applications with clean
             UI, smooth interactions, and user-focused experiences.
           </p>
-          
+
           {/* Buttons */}
           <div className="flex flex-col md:flex-row items-center lg:items-start gap-4 w-full sm:w-auto">
-            <button className="w-full md:w-auto px-6 py-3 rounded-lg font-semibold text-white bg-gradient-to-r from-purple-600 to-indigo-600 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/30">
+            <Link
+              to="/projects"
+              className="w-full md:w-auto px-6 py-3 rounded-lg font-semibold text-white bg-gradient-to-r from-purple-600 to-indigo-600 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/30 text-center"
+            >
               View Projects
-            </button>
+            </Link>
 
-            <button className="w-full md:w-auto px-6 py-3 rounded-lg border border-purple-500 text-purple-400 font-semibold transition-all duration-300 hover:bg-purple-500 hover:text-white hover:scale-105">
+            <Link
+              to="/contact"
+              className="w-full md:w-auto px-6 py-3 rounded-lg border border-purple-500 text-purple-400 font-semibold transition-all duration-300 hover:bg-purple-500 hover:text-white hover:scale-105 text-center"
+            >
               Contact Me
-            </button>
+            </Link>
           </div>
         </div>
 
