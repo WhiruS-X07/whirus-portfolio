@@ -12,17 +12,8 @@ const projects = [
     description:
       "A college management platform built for students and faculty with features like notices, resources, and academic utilities. Developed as my major final-year project.",
     tech: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "SnapSorter",
-    image: snapSorter,
-    description:
-      "A browser-based image reviewing and sorting utility designed for fast workflows with folder access, keyboard shortcuts, drag-and-drop support, and local saving.",
-    tech: ["HTML", "Tailwind CSS", "JavaScript"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/WhiruS-X07/Campus-Hub",
+    live: "https://whirus.42web.io/",
   },
   {
     title: "Rhythmix",
@@ -30,8 +21,8 @@ const projects = [
     description:
       "A modern music player powered by the Jamendo API with search, favorites, queue management, shuffle, repeat, and a responsive streaming-inspired interface.",
     tech: ["JavaScript", "Tailwind CSS", "Jamendo API"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/WhiruS-X07/rhythmix",
+    live: "https://whirus-x07.github.io/rhythmix/",
   },
   {
     title: "Developer Portfolio",
@@ -39,8 +30,17 @@ const projects = [
     description:
       "My personal portfolio website showcasing my skills, projects, journey, and contact information with smooth animations, reusable components, and responsive design.",
     tech: ["React", "Tailwind CSS", "Vite"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/WhiruS-X07/whirus-portfolio",
+    live: "https://whirus-portfolio.netlify.app/",
+  },
+  {
+    title: "SnapSorter",
+    image: snapSorter,
+    description:
+      "A browser-based image reviewing and sorting utility designed for fast workflows with folder access, keyboard shortcuts, drag-and-drop support, and local saving.",
+    tech: ["HTML", "Tailwind CSS", "JavaScript"],
+    github: "https://github.com/WhiruS-X07/Snap-Sorter",
+    live: "https://whirus-x07.github.io/Snap-Sorter/",
   },
 ];
 
