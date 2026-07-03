@@ -58,7 +58,7 @@ const Footer = () => {
 
           {/* Resume */}
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1SMrrjy-XYeEPNKkQ8pPojHqLNz4IO22N/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-purple-400 transition-colors duration-300"
